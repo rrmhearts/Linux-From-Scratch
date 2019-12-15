@@ -15,7 +15,7 @@ Linux from scratch notes, commands, and files.
 * Glibc-2.11 (Versions greater than 2.30 are not recommended as they have not been tested)
 * Grep-2.5.1a
 * Gzip-1.3.12
-* >Linux Kernel-3.2
+* Linux Kernel-3.2<
 * M4-1.4.10
 * Make-4.0
 * Patch-2.5.4
@@ -114,7 +114,7 @@ mount -v -t ext4 /dev/<yyy> $LFS/usr
 /sbin/swapon -v /dev/<zzz>
 ```
 ### Packages and Patches
-Store all source code in mount.
+Store all source code in mount. Packages are available at [http://www.linuxfromscratch.org/patches/downloads/].
 ```
 mkdir -v $LFS/sources
 
