@@ -1,6 +1,8 @@
 # Linux-From-Scratch
 Linux from scratch notes, commands, and files.
 
+Linux Journal provides their own ["Minimal Linux Distro from Source"](https://www.linuxjournal.com/content/diy-build-custom-minimal-linux-distribution-source).
+That article is linked at [DIY_MIN.md](DIY_MIN.md) 
 ## Required packages on host
 
 * Bash-3.2 (/bin/sh should be a symbolic or hard link to bash)
